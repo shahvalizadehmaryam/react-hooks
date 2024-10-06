@@ -1,11 +1,12 @@
 import './App.css'
+import MemoComponent from './components/MemoComponent'
 
 function App() {
 
 
   return (
     <>
-      <h3>kk</h3>
+      <MemoComponent />
     </>
   )
 }
