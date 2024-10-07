@@ -11,7 +11,7 @@ const MemoComponent = () => {
   }, [counter]);
   const clickHandler = useCallback(() => {
     setNumber((number) => number + 1);
-  }, []);
+  }, [number]);
   return (
     <div>
       <h3>Memo component</h3>
