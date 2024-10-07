@@ -1,12 +1,13 @@
 import './App.css'
-import MemoComponent from './components/MemoComponent'
+import TransitionComponent from './components/TransitionComponent'
 
 function App() {
 
 
   return (
     <>
-      <MemoComponent />
+      {/* <MemoComponent /> */}
+      <TransitionComponent />
     </>
   )
 }
